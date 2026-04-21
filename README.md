@@ -22,3 +22,7 @@ Exibe o total da dívida e o valor das parcelas com base nos juros acumulados.
 ### 4. Cálculo de Imposto de Renda (Investimentos)
 Calcula a alíquota de IR para CDB, LCI, e LCA com base no tempo de permanência do investimento.
 
+### 5. Desvios Condicionais
+Exercícios iniciais em Python focados em lógica de programação e desvios condicionais, utilizando if, elif e else. 
+Os 5 exemplos exploram tomada de decisão e controle de fluxo na prática.
+
