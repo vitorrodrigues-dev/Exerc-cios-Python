@@ -1,28 +1,30 @@
 # Exercícos de Lógica de Programação em Python
 
-Este repositório contém exercícios desenvolvidos durante meus estudoa iniciais em programação.
+## 📚 Conteúdos praticados
+- Estruturas condicionais (if, elif, else)
+- Estruturas de repetição (while, for)
+- Lógica de programação
 
-Conteúdos praticados:
--Estruturas condicionais (if/else)
--Estruturas de repetição (while)
--Lógica de programação
+## 🚀 Exercícios
 
-Em constante evolução como desenvolvedor.
+### 1. Sistema de votação
+Programa que recebe a preferência de colaboradores sobre o dia da semana para uma live e exibe o dia vencedor.
 
-### 1. Sistema de votação 
-(live fintech)
-programa que recebe a preferência de n colaboradores sobre o dia da semana para uma Live e exibe o dia vencedor.
+### 2. Simulador de financiamento de veículo
+Calcula o valor de um carro à vista com desconto ou parcelado com juros progressivos.
 
-### 2. Simulador de Financiamento de Veículo.
-Calcula o valor de um carro à vista com 20% de desconto ou parcelado em até 60x com acréscimo de juros progressivos.
+### 3. Gerenciador de dívidas
+Exibe o valor total da dívida e as opções de parcelamento com base em juros.
 
-### 3. Gerenciador de Dívidas
-Exibe o total da dívida e o valor das parcelas com base nos juros acumulados.
+### 4. Cálculo de imposto de renda (investimentos)
+Calcula a alíquota de IR para CDB, LCI e LCA com base no tempo de investimento.
 
-### 4. Cálculo de Imposto de Renda (Investimentos)
-Calcula a alíquota de IR para CDB, LCI, e LCA com base no tempo de permanência do investimento.
+### 5. Exercícios com estruturas condicionais
+Conjunto de exercícios focados em tomada de decisão e controle de fluxo.
 
-### 5. Desvios Condicionais
-Exercícios iniciais em Python focados em lógica de programação e desvios condicionais, utilizando if, elif e else. 
-Os 5 exemplos exploram tomada de decisão e controle de fluxo na prática.
+### 6. Laços de repetição
+Exercícios utilizando while, while True e for, abordando repetição, controle de fluxo e interação com o usuário.
 
+---
+
+💻 Em constante evolução como desenvolvedor.
