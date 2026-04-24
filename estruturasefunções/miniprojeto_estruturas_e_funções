@@ -1,0 +1,52 @@
+#Exercício: Sistema de Cadastro de Alunos
+#Objetivo: Criar um pequeno sistema que:
+#armazena alunos
+#evita duplicados
+#calcula média
+#usa funções para organizar tudo
+
+def cadastrar_aluno(lista, conjunto_nomes, nome, notas):
+    if nome in conjunto_nomes:
+        print("Aluno já cadastrado")
+    else:
+        aluno = {
+            "nome": nome,
+            "notas": notas
+        }
+        lista.append(aluno)
+        conjunto_nomes.add(nome)
+
+
+def calcular_media(notas):
+    return sum(notas) / len(notas)
+
+
+def listar_alunos(lista):
+    for aluno in lista:
+        nome = aluno["nome"]
+        notas = aluno["notas"]
+        media = calcular_media(notas)
+
+        print(f"Nome: {nome}")
+        print(f"Notas: {notas}")
+        print(f"Média: {media:.2f}")
+
+        if media >= 6:
+            print("Status: Aprovado")
+        else:
+            print("Status: Reprovado")
+
+        print("-" * 20)
+
+
+# Programa principal
+alunos = []
+nomes = set()
+
+cadastrar_aluno(alunos, nomes, "Ana", [8, 6, 9])
+cadastrar_aluno(alunos, nomes, "João", [4, 6, 4])
+cadastrar_aluno(alunos, nomes, "Yasmin", [8, 4, 10])
+cadastrar_aluno(alunos, nomes, "Ana", [10, 10, 10])  # duplicado
+
+print("\nLista de alunos:\n")
+listar_alunos(alunos)
