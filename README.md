@@ -1,5 +1,6 @@
 # Exercícos de Lógica de Programação em Python
 
+
 ## 📚 Conteúdos praticados
 - Estruturas condicionais (if, elif, else)
 - Estruturas de repetição (while, for)
