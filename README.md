@@ -19,7 +19,7 @@ Exibe o valor total da dívida e as opções de parcelamento com base em juros.
 ### 4. Cálculo de imposto de renda (investimentos)
 Calcula a alíquota de IR para CDB, LCI e LCA com base no tempo de investimento.
 
-### 5. Exercícios com estruturas condicionais
+### 5. Exercícios com estruturas condicionais 
 Conjunto de exercícios focados em tomada de decisão e controle de fluxo.
 
 ### 6. Laços de repetição
