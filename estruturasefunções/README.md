@@ -19,6 +19,7 @@ Condições ( if/else)
 Laços ( for)
 
 🚀 Como funciona
+
 O sistema armazena os alunos em uma lista e usa um conjunto ( set) para evitar nomes duplicados.
 Cada aluno possui nome e notas, e a média é calculada automaticamente para definir se está aprovado ou reprovado.
 
